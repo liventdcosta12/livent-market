@@ -12,13 +12,18 @@
 <header>
   <h1>Livent Market</h1>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Products</a>
-    <a href="#">Categories</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+
+<nav class="navbar">
+  <div class="logo">🛍️ Livent Market</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
 </header>
 
 <main>
@@ -132,3 +137,15 @@ button:hover{
     font-size:22px;
     font-weight:bold;
 }
+2:38 PM
+<nav class="navbar">
+  <div class="logo">🛍️ Livent Market</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
