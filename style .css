@@ -1,63 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livent Market</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<header>
-    <nav class="navbar">
-        <div class="logo">🛍️ Livent Market</div>
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
 
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+.navbar{
+    background:#121212;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
 
-<section class="hero">
-    <h1>Welcome to Livent Market</h1>
-    <p>Your trusted online shopping destination.</p>
+.logo{
+    color:#1DB954;
+    font-size:30px;
+    font-weight:bold;
+}
 
-    <button>Shop Now</button>
-</section>
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
 
-<section class="products">
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
 
-    <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product">
-        <h3>Wireless Headphone</h3>
-        <p>৳ 2,499</p>
-        <button>Buy Now</button>
-    </div>
+.nav-links li a:hover{
+    color:#1DB954;
+}
 
-    <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product">
-        <h3>Smart Watch</h3>
-        <p>৳ 3,999</p>
-        <button>Buy Now</button>
-    </div>
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
 
-    <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product">
-        <h3>Bluetooth Speaker</h3>
-        <p>৳ 1,899</p>
-        <button>Buy Now</button>
-    </div>
+.hero h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
 
-</section>
+.hero p{
+    font-size:20px;
+    color:#666;
+    margin-bottom:25px;
+}
 
-<footer>
-    <p>© 2026 Livent Market. All Rights Reserved.</p>
-</footer>
+button{
+    background:#1DB954;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
 
-</body>
-</html>
+button:hover{
+    background:#169944;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.product-card{
+    width:280px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    padding:20px;
+    text-align:center;
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-card h3{
+    margin:15px 0;
+}
+
+.product-card p{
+    color:#1DB954;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#121212;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
