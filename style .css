@@ -1,4 +1,3 @@
-/* Reset */
 *{
     margin:0;
     padding:0;
@@ -11,7 +10,6 @@ body{
     color:#222;
 }
 
-/* Navbar */
 .navbar{
     background:#121212;
     display:flex;
@@ -43,7 +41,6 @@ body{
     color:#1DB954;
 }
 
-/* Hero Section */
 .hero{
     height:80vh;
     background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
@@ -83,7 +80,6 @@ body{
     background:#169944;
 }
 
-/* Products */
 .products{
     display:flex;
     justify-content:center;
@@ -137,7 +133,6 @@ body{
     background:#169944;
 }
 
-/* Footer */
 footer{
     background:#121212;
     color:#fff;
@@ -145,9 +140,7 @@ footer{
     padding:25px;
 }
 
-/* Responsive */
 @media (max-width:768px){
-
     .navbar{
         flex-direction:column;
         gap:15px;
@@ -165,5 +158,4 @@ footer{
     .hero p{
         font-size:18px;
     }
-
 }
